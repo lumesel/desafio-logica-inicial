@@ -1,0 +1,88 @@
+let nome = "Ludev"
+let XP = 0
+let levelInicial = "Ferro"
+let level = ""
+
+console.log (`A heroína ${nome} possui ${XP} de XP e iniciou sua jornada no nível ${levelInicial}`)
+
+
+for (XP+500;XP<=9500;XP=XP+500){  
+  XP+500
+  switch(true){
+    case (XP < 1000):
+    level= "Ferro"
+     console.log("Matou um NPC e ganhou 500 de xp.")
+     console.log (`Parabéns, você agora possui ${XP+500} de XP e está no nível ${level}`)
+     XP+500
+     break
+
+    case (XP >= 1000 && XP < 1500):
+    level= "Ferro"
+     XP+500
+     console.log("Matou um NPC e ganhou 500 de xp.")
+     console.log (`Parabéns, você agora possui ${XP+500} de XP e está no nível ${level}`)
+     break
+
+    case (XP >= 1500 && XP < 2000):
+    level= "Bronze"
+     XP + 500
+    break
+
+    case (XP >= 2000 && XP < 5000):
+    level= "Prata"
+     XP + 500
+    console.log("Matou um NPC e ganhou 500 de xp.")
+    console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+
+    case (XP >= 5000 && XP < 7000):
+    level= "Ouro"
+     XP + 500
+     console.log("Matou um NPC e ganhou 500 de xp.")
+     console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+
+    case (XP >= 7000 && XP < 8000):
+    level= "Platina"
+     XP + 500
+    console.log("Matou um NPC e ganhou 500 de xp.")
+    console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+
+    case (XP >= 8000 && XP < 9000):
+    level= "Ascendente"
+     XP + 500
+    console.log("Matou um NPC e ganhou 500 de xp.")
+    console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+
+    case (XP >= 9000 && XP < 10000):
+    level= "Imortal"
+     XP + 500
+    console.log("Matou um NPC e ganhou 500 de xp.")
+    console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+
+    case (XP >=10000):
+    level= "Radiante"
+     XP + 500
+    console.log("Matou um NPC e ganhou 500 de xp.")
+    console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+    break
+  }
+  }
+
+
+console.log("Matou um NPC e ganhou 500 de xp.")
+console.log (`Parabéns, você agora possui ${XP} de XP e está no nível ${level}`)
+
+
+console.log (`O Herói de ${nome} possui ${XP} de XP e está no nível ${level}`)
+
+
+//while (XP <= 5000){
+  //level=
+ // console.log("XP= ")
+  //XP= XP + 500
+//}
+//
